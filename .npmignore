@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+coverage/
+tmp/
+temp/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Test files
+*.spec.ts
+*.test.ts
+test/
+tests/
+__tests__/
+
+# Configuration files
+.editorconfig
+.prettierrc
+.eslintrc
+karma.conf.js
+tsconfig.spec.json
+
+# Other
+*.tgz
+.git/
+.gitignore 

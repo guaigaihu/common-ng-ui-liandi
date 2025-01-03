@@ -1,6 +1,14 @@
 {
-  "name": "common-ng-ui-liandi",
-  "version": "0.0.1",
+  "name": "@guaigaihu/common-ng-ui-liandi",
+  "version": "0.0.3",
+  "description": "Angular 17 で開発された再利用可能な UI コンポーネントライブラリ",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,23 +17,49 @@
     "test": "ng test",
     "build:lib": "ng build common-ng-ui-liandi"
   },
-  "private": true,
-  "dependencies": {
+  "author": {
+    "name": "guaigaihu",
+    "url": "https://www.npmjs.com/~guaigaihu"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angular17",
+    "ui",
+    "components",
+    "typescript",
+    "liandi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guaigaihu/common-ng-ui-liandi"
+  },
+  "homepage": "https://github.com/guaigaihu/common-ng-ui-liandi#readme",
+  "bugs": {
+    "url": "https://github.com/guaigaihu/common-ng-ui-liandi/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
     "@angular/animations": "^17.0.0",
     "@angular/common": "^17.0.0",
-    "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
     "@angular/forms": "^17.0.0",
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
     "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.0.0",
     "@angular/cli": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
     "@angular/compiler-cli": "^17.0.0",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",
@@ -36,5 +70,6 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^17.0.0",
     "typescript": "~5.2.2"
-  }
+  },
+  "sideEffects": false
 }
