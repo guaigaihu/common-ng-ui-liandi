@@ -1,0 +1,13 @@
+<div class="checkbox-container">
+  <div class="checkbox-wrapper">
+    <input
+      type="checkbox"
+      [id]="id"
+      [checked]="checked"
+      (change)="onChange($event)"
+      class="checkbox-input"
+    >
+    <span class="checkbox-custom"></span>
+  </div>
+  <label [for]="id" class="checkbox-label">{{label}}</label>
+</div> 
