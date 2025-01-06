@@ -1,6 +1,6 @@
 {
   "name": "@guaigaihu/common-ng-ui-liandi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Angular 17 で開発された再利用可能な UI コンポーネントライブラリ",
   "main": "dist/index.js",
   "module": "dist/index.js",

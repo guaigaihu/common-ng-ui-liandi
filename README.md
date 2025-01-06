@@ -12,7 +12,7 @@ Angular 17 で開発された再利用可能な UI コンポーネントライ�
 ## インストール
 
 ```bash
-npm install common-ng-ui-liandi
+npm install @guaigaihu/common-ng-ui-liandi
 ```
 
 ## クイックスタート
@@ -20,7 +20,7 @@ npm install common-ng-ui-liandi
 1. `app.module.ts` または独立コンポーネントで必要なコンポーネントをインポート：
 
 ```typescript
-import { InputComponent, CheckboxComponent } from 'common-ui';
+import { InputComponent, CheckboxComponent } from '@guaigaihu/common-ng-ui-liandi';
 
 @Component({
   // ...
@@ -102,7 +102,7 @@ $text-color: #374151;        // テキストカラー
 
 1. プロジェクトをクローン
 ```bash
-git clone <repository-url>
+git clone https://github.com/guaigaihu/common-ng-ui-liandi.git
 ```
 
 2. 依存関係のインストール
